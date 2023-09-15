@@ -1,4 +1,4 @@
-import filmService from "@/services/film.service";
+import filmService from "../services/film.service";
 import { Request, Response } from "express";
 
 async function createFilm(req: Request, res: Response) {

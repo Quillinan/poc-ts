@@ -1,5 +1,5 @@
-import { Film } from "@/protocols/film.protocol";
-import filmRepository from "@/repositories/film.repository";
+import { Film } from "../protocols/film.protocol";
+import filmRepository from "../repositories/film.repository";
 
 async function createFilm(film: Film): Promise<Film> {
   return filmRepository.createFilm(film);

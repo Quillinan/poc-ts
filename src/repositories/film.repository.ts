@@ -1,5 +1,5 @@
-import { Film } from "@/protocols/film.protocol";
-import db from "@/database/database";
+import { Film } from "../protocols/film.protocol";
+import db from "../database/database";
 import { QueryResult } from "pg";
 
 async function createFilm(film: Film): Promise<Film> {

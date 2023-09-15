@@ -1,6 +1,6 @@
-import filmController from "@/controllers/film.controller";
-import { validateSchema } from "@/middleware/validateSchema";
-import filmSchema from "@/schemas/film.schema";
+import filmController from "../controllers/film.controller";
+import { validateSchema } from "../middleware/validateSchema";
+import filmSchema from "../schemas/film.schema";
 import { Router } from "express";
 
 const router = Router();
